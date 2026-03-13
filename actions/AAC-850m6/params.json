@@ -1,0 +1,40 @@
+{
+    "category": "plugins",
+    "display": "showalert",
+    "fields": {
+        "AAD": {
+            "caption": "text",
+            "doc": "表示する本文",
+            "editor": "DynamicValue",
+            "name": "text",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAE": {
+            "caption": "theme",
+            "default_val": "green",
+            "doc": "色",
+            "editor": "Dropdown",
+            "name": "theme",
+            "options": "yellow,green,red",
+            "rank": 1
+        },
+        "AAG": {
+            "caption": "title",
+            "editor": "DynamicValue",
+            "name": "title",
+            "optional": true,
+            "rank": 2,
+            "value": "text"
+        },
+        "AAH": {
+            "caption": "closable",
+            "default_val": true,
+            "editor": "DynamicValue",
+            "name": "closable",
+            "rank": 3,
+            "value": "boolean"
+        }
+    },
+    "type": "client_side"
+}
