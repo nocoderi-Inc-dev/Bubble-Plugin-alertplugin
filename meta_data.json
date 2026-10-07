@@ -5,5 +5,6 @@
     "description": "アラートです。\nheaderに何も置かないためLCPが軽くなります。",
     "image": "//meta-q.cdn.bubble.io/f1766819971399x433951977596103800/%E5%85%AC%E9%96%8B%E9%96%8B%E5%A7%8B.svg",
     "license": "open_source",
-    "name": "alertplugin"
+    "name": "alertplugin",
+    "platforms_new": "web"
 }
